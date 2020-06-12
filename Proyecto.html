@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCONAIR</title>
+    <link rel="stylesheet" type="text/css" href="style1.css"
+</head>
+<body>
+      </div>
+    <div id="cabecera">
+        <img src="imágenes proyecto/Logo.png" alt="Muestra una imagen de avión alrededor del globo terraqueo ">
+        <h1>FALCONAIR</h1>
+        <nav>
+            <ul> 
+                <li><a href="#sobrenosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="#destinosprecios">DESTINOS/PRECIOS</a></li>
+                <li><a href="#horarios">HORARIOS</a></li>
+                <li><a href="#haztureserva">HAZ TU RESERVA</a></li>
+            </ul>
+        </nav>
+    </div>
+   <div id="contenido">
+    <div id="sobrenosotros" class="apartado">
+        <h2><span class="subrayado">SOBRE NOSOTROS</span></h2>
+        <p>Falconair Airlines, una aerolínea española que trabaja cada día desde hace 30 años con el fin de cumplir vuestros sueños.
+        Con una flota de más de 50 aviones y destinos muy variados ofrecemos a nuestros clientes experiencias inolvidables con servicios más baratos pero no por ello de menos calidad.
+    Además en Falconair Airlines nos comprometemos con el medio ambiente. Nuestro aviones generan un 30% menos de emisiones de CO2 que el resto de aerolíneas de nuestro país.
+    Así que ya sabe, todo esto y mucho más es lo que puedes conseguir con nuestra aerolínea,¿te unes a nosotros?
+</p>
+        <div id="video" class="elementos">
+            <iframe width="560" height="315" src="imágenes proyecto/Landing - 32945.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img src="imágenes proyecto/Avión.jpg" alt="Muestra una imagen del interior de un avión">
+            <img src="imágenes proyecto/Aircraft.jpg" alt="Muestra una imagen de un avión">
+        </div>
+    </div>       
+
+    <div id="destinosprecios" class="apartado">
+        <h2><span class="subrayado">DESTINOS/PRECIOS</span></h2>
+    
+        <ol>
+            <br><li><strong><i>Alemania:</i></strong></li>
+                <ol type="A">
+                
+                </ol>
+                <ol>
+                     <ul>
+                         <li>Berlín (Tegel)...................110,56€</li>
+                         <li>Düsseldorf.......................89,95€</li>  
+                         <li>Múnich...........................128,74€</li>  
+                         <li>Stuttgart........................145,67€</li>
+                     </ul>    
+                       </ol></br> 
+             <br><li><strong><i>España:</i></strong></li>
+                 <ol>
+            <ul>
+                <li>A Coruña..................................149,98€</li>
+                <li>Barcelona.................................54,99€</li>  
+                <li>Gran Canaria..............................231,98€</li>    
+                <li>Ibiza.....................................112,98€</li>    
+                <li>Granada...................................141,98€</li>
+                <li>Madrid....................................164,74€</li> 
+                <li>Valencia..................................80,45€</li> 
+            </ul>    
+                </ol></br>
+                
+             <br><li><strong><i>Italia:</i></strong></li>
+                 <ol>
+                     <ul>
+                         <li>Florencia........................196,00€</li>
+                         <li>Nápoles..........................176,95€</li>
+                         <li>Milán............................167,43€</li>
+                         <li>Roma.............................153,99€</li>
+                         </ul></br>   
+             </ol>
+            <br><li><strong><i>Paises Bajos:</i> </strong></li>
+            <ol>
+            
+                <ul>
+                     <li>Ámsterdam............................230,25€</li>
+                 </ul> </ol></br> 
+              <br><li><strong><i>Reino Unido:</i></strong></li>       
+                <ol>
+                  <ul>
+                     
+                     <li>Londres................................80,95€</li>
+                     <li>Edimburgo...........................50,27€</li>
+                     <li>Manchester...........................60,67€</li>
+                    
+                     </ul>
+
+                  </ol></br> 
+               <br><li><strong><i>Ucrania:</i></strong></li> 
+               <ol>
+
+                  <ul>
+                    
+                     <li>Kiev................................700,00€</li>
+                     
+                     </ul></br>
+                     
+    </div>
+        
+    
+    <div id="haztureserva" class="apartado">
+        <h2><span class="subrayado">HAZ TU RESERVA</span></h2>
+        <form> 
+            <fieldset>
+            <legend>Rellenar con tus datos</legend>
+                <br><label>Nombre:<input type= "text" placeholder="Escriba su nombre" required/></label></br>   
+                <br><label>Apellidos:<input type= "text" placeholder="Escriba sus apellidos" required/></label></br>   
+            </fieldset> 
+
+            <fieldset>
+                <legend>Email y NºTeléfono</legend>
+                Email:
+                <input type="email" id="id_email"
+                name="email" required placeholder="aitana.mar.pr@gmail.com"/><br>
+                NºTeléfono:
+                <input type="tel" id="id_phone" name="phone"
+                required placeholder="697-456-843"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            </fieldset>
+
+            <fieldset>
+                <legend>Fechas</legend>
+                Fecha ida: <input type="date" id="fecha" required/><br>
+                Fecha vuelta: <input type="date" id="fecha" required/><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Origen/Destino</legend>
+                    <br><label>Origen:<input type= "text" placeholder="Escriba el aeropuerto de origen" required/></label></br>   
+                    <br><label>Destino:<input type= "text" placeholder="Escriba el aeropuerto de destino" required/></label></br>   
+            </fieldset> 
+            
+            <fieldset>
+                <legend><inputrequired>Clase de Billete</inputrequired></legend>
+                    <input type="radio" id="Clase turista" name="Clase" value="Clase turista">
+                    <label for="Clase turista">Clase turista</label><br>
+                    <input type="radio" id="Clase Business" name="Clase" value="Clase Business ">
+                    <label for="Clase Business">Clase Business</label><br>
+                    <input type="radio" id="Primera clase" name="Clase" value="Primera clase">
+                    <label for="Primera clase">Primera clase</label><br> 
+            </fieldset>
+
+            <fieldset>
+                <legend>Nº Billetes</legend>
+                    <select id="idSelect">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select></br> 
+            </fieldset>
+            <fieldset>
+                <legend><inputrequired>Equipaje:</inputrequired></legend>
+                    <input type="checkbox" id="Maleta de mano" name="Maleta de mano" value="Maleta de mano">
+                    <label for="Maleta de mano">Maleta de mano</label><br>
+                    <input type="checkbox" id="Maleta facturada" name="Maleta facturada" value="Maleta facturada">
+                    <label for="Maleta facturada">Maleta facturada</label><br>
+            </fieldset>
+            <fieldset>
+                <legend><inputrequired>Pago:</inputrequired></legend>
+                <label for="pwd">Número de cuenta:</label><br>
+                <input type="password" id="pwd" name="pwd">
+            </fieldset>
+            <fieldset>
+            <br><label><button type= "submit" value= "Hacer reserva">Hacer reserva</button></label></br>
+        </fieldset> 
+    </div>
+
+
+    <div id="horarios" class="apartado">
+        <h2><span class="subrayado">HORARIOS</span></h2>
+        <table style="width:100%">
+
+        <tr>
+            <th colspan="4">HORARIO HOY</th>
+        </tr>
+
+        <tr>
+        <th>SALIDA</th> 
+        <th>LLEGADA</th>
+        <th>HORA</th>
+        </tr>
+
+        <tr>
+            <td align="center">Berlín</td>
+            <td align="center">Barcelona</td>
+            <td align="center">10:00-12:40</td>
+        </tr>
+
+        <tr>    
+            <td align="center">Madrid</td>
+            <td align="center">Ibiza</td>
+            <td align="center">12:30-13:45</td>
+        </tr>    
+        
+        <tr>
+            <td align="center">Milán</td>
+            <td align="center">Ámsterdam</td>
+            <td align="center">17:00-18:45</td>
+        </tr>
+        
+        <tr>
+            <td align="center">Londres</td>
+            <td align="center">Roma</td>
+            <td align="center">8:00-10:20</td>
+        </tr>
+        
+        <tr>
+            <td align="center">Manchester</td>
+            <td align="center">Valencia</td>
+            <td align="center">20:00-22:40</td>
+        </tr>
+        
+         <tr>
+            <td align="center">Gran Canaria</td>
+            <td align="center">Barcelona</td>
+            <td align="center">14:00-17:00</td>
+        </tr>
+    </div>
+      
+</body>
+</html>

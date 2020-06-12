@@ -1,0 +1,99 @@
+#cabecera img{
+    width:90px;
+    height:90px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#cabecera{
+   background-color: #ADD8E6; 
+}
+
+#cabecera h1 {
+    display: inline;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+
+}
+
+#cabecera nav{
+    float: right;
+    margin-top: 20px;
+    margin-right: 120px;
+  
+}
+   
+   
+
+#cabecera li{
+    float: left;
+    list-style: none;
+    padding: 40px;
+    
+}
+#cabecera a{
+   text-decoration: none;
+   font-family: 'Arial Narrow';
+   color: #FF8C00;
+}
+#cabecera ul li a:hover{
+    color: darkblue;
+}
+#contenido h2{
+    display: inline;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+#sobrenosotros{
+background-color:  #FFA500;
+font-family: 'Arial Narrow';
+}
+#sobrenosotros iframe{
+margin-left: 60px;
+margin-right: 60px;
+}
+#sobrenosotros img{
+    margin-left: 50px;
+    margin-right: 50px;
+    width:500px;
+    height:300px;
+    display:inline-block;
+    margin-left:60px;
+    margin-right:60px;
+    border-radius: 50%;
+    }
+
+#sobrenosotros p{
+margin-left: 50px;
+margin-right: 50px;
+            }
+#haztureserva form {
+    width: 800px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ADD8E6;
+}
+#haztureserva {
+    background-color:  #FFA500;
+    font-family: 'Arial Narrow';
+    }
+#destinosprecios {
+        background-color:  #FFA500;
+        font-family: 'Arial Narrow';
+        }
+#horarios {
+background-color:  #FFA500;
+font-family: 'Arial Narrow';
+            }
+.subrayado {
+    background-color:#ADD8E6 ;
+}
+#letrablanca{
+    color:white;
+}
